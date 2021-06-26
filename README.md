@@ -1,6 +1,6 @@
 # NlwValoriza
 
-## Milhas extras
+## Extra miles
 
 - Create an front end for the app [ ]
 
