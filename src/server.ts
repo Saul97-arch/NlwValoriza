@@ -8,7 +8,12 @@ import { router } from "./routes";
 
 import "./database";
 
+import cors from  "cors";
+
 const app = express();
+
+// It is possible to pass an { origin : "127.168.10.10 "} if you want to restrict the acess for just one domain
+app.use(cors());
 
 app.use(express.json())
 
